@@ -11,6 +11,8 @@ services:
     restart: always
     container_name: api-gateway-docker
     network_mode: host
+    ports:
+      - 8082:8082
     depends_on:
      - track
 
@@ -28,7 +30,7 @@ services:
     network_mode: host
     container_name: eureka-docker
     ports:
-      - 7770:7770
+      - 8680:8680
 
   track-service:
     build: ./track-service/

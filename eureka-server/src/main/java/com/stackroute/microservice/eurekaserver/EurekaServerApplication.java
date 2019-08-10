@@ -8,7 +8,7 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 
 @SpringBootApplication
 @EnableEurekaServer
-public class EurekaServerApplication<args> {
+public class EurekaServerApplication {
 	private static Logger LOGGER = LoggerFactory.getLogger(EurekaServerApplication.class);
 
 	//main method
