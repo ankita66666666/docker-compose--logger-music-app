@@ -7,24 +7,22 @@ services:
     restart: always
 
   api-gateway:
-    build: ./api-gateway-pattern/
+    build: ./api-gateway/
     restart: always
     container_name: api-gateway-docker
     network_mode: host
     depends_on:
-      - track
-    ports:
-      - 8081:8081
+     - track
 
-  config:
+  config-service:
     build: ./config-server/
     restart: always
     network_mode: host
     container_name: config-docker
     ports:
-      - 8600:8600
+      - 8601:8601
 
-  eureka:
+  eureka-service:
     build: ./eureka-server/
     restart: always
     network_mode: host
@@ -32,7 +30,7 @@ services:
     ports:
       - 7770:7770
 
-  track:
+  track-service:
     build: ./track-service/
     restart: always
     network_mode: host
@@ -44,8 +42,9 @@ services:
       - mongo
       - eureka
 
-  user:
-    build: ./user-service/
+
+  user-service:
+    build: ./user-services/
     restart: always
     network_mode: host
     container_name: user-docker

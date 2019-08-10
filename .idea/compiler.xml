@@ -17,7 +17,7 @@
       <module name="api-gateway" target="11" />
       <module name="config-server" target="11" />
       <module name="eureka-server" target="11" />
-      <module name="music-app-multi-module" target="11" />
+      <module name="multi-module-music-app" target="11" />
       <module name="track-service" target="11" />
       <module name="user-services" target="11" />
     </bytecodeTargetLevel>

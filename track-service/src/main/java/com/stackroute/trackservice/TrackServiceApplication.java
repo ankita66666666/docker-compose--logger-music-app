@@ -17,9 +17,9 @@ public class TrackServiceApplication {
 
 		SpringApplication.run(TrackServiceApplication.class, args);
 
-		LOGGER.debug("This is a debug message");
-		LOGGER.info("This is an info message");
-		LOGGER.warn("This is a warn message");
+		LOGGER.debug(" debug message");
+		LOGGER.info(" info message");
+		LOGGER.warn(" warn message");
 		LOGGER.error("This is an error message");
 	}
 

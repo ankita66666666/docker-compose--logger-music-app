@@ -5,7 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/api-gateway/api-gateway.iml" filepath="$PROJECT_DIR$/api-gateway/api-gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/config-server/config-server.iml" filepath="$PROJECT_DIR$/config-server/config-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
-      <module fileurl="file://$PROJECT_DIR$/music-app-multi-module.iml" filepath="$PROJECT_DIR$/music-app-multi-module.iml" />
+      <module fileurl="file://$PROJECT_DIR$/multi-module-music-app.iml" filepath="$PROJECT_DIR$/multi-module-music-app.iml" />
       <module fileurl="file://$PROJECT_DIR$/track-service/track-service.iml" filepath="$PROJECT_DIR$/track-service/track-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/user-services/user-services.iml" filepath="$PROJECT_DIR$/user-services/user-services.iml" />
     </modules>

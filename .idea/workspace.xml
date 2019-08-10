@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="535c24ef-7056-4216-836e-6abaa7e4c8e8" name="Default Changelist" comment="" />
+    <list default="true" id="535c24ef-7056-4216-836e-6abaa7e4c8e8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/api-gateway.iml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/api-gateway.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/stackroute/apigatewaypattern/ApiGatewayPatternApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/stackroute/apigatewaypattern/ApiGatewayPatternApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/target/classes/com/stackroute/apigatewaypattern/ApiGatewayPatternApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/target/classes/com/stackroute/apigatewaypattern/ApiGatewayPatternApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/src/main/java/com/stackroute/microservice/ConfigServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/java/com/stackroute/microservice/ConfigServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/target/classes/com/stackroute/microservice/ConfigServerApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/target/classes/com/stackroute/microservice/ConfigServerApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/src/main/java/com/stackroute/microservice/eurekaserver/EurekaServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/src/main/java/com/stackroute/microservice/eurekaserver/EurekaServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/target/classes/com/stackroute/microservice/eurekaserver/EurekaServerApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/target/classes/com/stackroute/microservice/eurekaserver/EurekaServerApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/music-app-multi-module.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/track-service/src/main/java/com/stackroute/trackservice/TrackServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/track-service/src/main/java/com/stackroute/trackservice/TrackServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-services/src/main/java/com/stackroute/UserServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-services/src/main/java/com/stackroute/UserServiceApplication.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +45,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TrackServiceApplication">
+  <component name="RunManager" selected="Application.ApiGatewayPatternApplication">
     <configuration name="ApiGatewayPatternApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.stackroute.apigatewaypattern.ApiGatewayPatternApplication" />
       <module name="api-gateway" />
@@ -81,12 +98,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UserServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.stackroute.UserServiceApplication" />
+      <module name="user-services" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.stackroute.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TrackServiceApplication" />
-        <item itemvalue="Application.EurekaServerApplication" />
-        <item itemvalue="Application.ConfigServerApplication" />
         <item itemvalue="Application.ApiGatewayPatternApplication" />
+        <item itemvalue="Application.UserServiceApplication" />
+        <item itemvalue="Application.ConfigServerApplication" />
+        <item itemvalue="Application.EurekaServerApplication" />
+        <item itemvalue="Application.TrackServiceApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -122,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1565451675798</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added .gitignore">
+      <created>1565451937326</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1565451937326</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -141,6 +179,12 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="completed logger file" />
     <MESSAGE value="completed logger file and added README file" />
-    <option name="LAST_COMMIT_MESSAGE" value="completed logger file and added README file" />
+    <MESSAGE value="added .gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="added .gitignore" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/music_player$ConfigServerApplication.ic" NAME="ConfigServerApplication Coverage Results" MODIFIED="1565452569783" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.stackroute.microservice.*</FILTER>
+    </SUITE>
   </component>
 </project>
